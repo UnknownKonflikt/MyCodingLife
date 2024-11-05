@@ -1,5 +1,5 @@
 
-import './src/assets/App.css'
+import '../src/assets/App.css'
 import AboutSection from './Components/AboutSection'
 import HeroSection from './Components/HeroSection'
 import NavBar from './Components/NavBarSection'
