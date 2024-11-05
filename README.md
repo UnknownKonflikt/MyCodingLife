@@ -1,8 +1,30 @@
-# React + Vite
+# My Coding Life
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+A comprehensive look at my coding profile and projects, also including contact information.
 
-Currently, two official plugins are available:
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+5. [Tests](#tests)
+6. [Questions](#questions)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+This app will be deployed on Netlify. Please refer to the following link to view.
+
+## Usage
+This is for employment opportunities and educational purposes.
+
+## License
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+## Contributing
+This is personal data and will not be allowed changes by others.
+
+## Tests
+Visit the link to Netlify.
+
+##Questions
+https://github.com/UnknownKonflikt
