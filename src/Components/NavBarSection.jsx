@@ -1,5 +1,7 @@
 // import HeroSection from "./HeroSection";
 // import About from "./AboutSection";
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
 
 function NavBar() {
     return (
@@ -31,7 +33,7 @@ function NavBar() {
                             <a className="nav-link" href="#ProjectSection">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#HeroSection">Hero</a>
+                            <a className="nav-link" href="ResumeSection">Resume</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#ContactSection">Contact</a>
