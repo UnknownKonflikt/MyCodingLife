@@ -3,6 +3,7 @@
 function SkillSection() {
     return (
         <>
+        <section id="SkillSection">
            <div className="container px-4 py-5" id="hanging-icons">
            <h1 className="text-center display-6 fw-bold text-body-emphasis lh-1 mb-3">Some skills and knowledge I have learned so far..</h1>
 
@@ -38,6 +39,7 @@ function SkillSection() {
       </div>
     </div>
   </div>
+</section>
         </>
             )
 }

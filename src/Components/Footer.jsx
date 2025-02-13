@@ -1,27 +1,23 @@
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
+import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from 'react-icons/fa'; // Import icons
 
-
-
-function Footer() {
-    return (
-        <>
-        <div className="container">
-  <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div className="col-md-4 d-flex align-items-center">
-      <a href="/" className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-        <svg className="bi" width="30" height="24"><use xlinkHref="#bootstrap"></use></svg>
-      </a>
-      <span className="mb-3 mb-md-0 text-body-secondary">© 2024 UnknownKonflikt, Inc</span>
-    </div>
-
-    <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li className="ms-3"><a className="text-body-secondary" href="https://x.com/unknownkonflikt"><svg className="bi" width="24" height="24"><use xlinkHref="#twitter"></use></svg></a></li>
-      <li className="ms-3"><a className="text-body-secondary" href="https://www.instagram.com/unknown_konflikt/"><svg className="bi" width="24" height="24"><use xlinkHref="#instagram"></use></svg></a></li>
-      <li className="ms-3"><a className="text-body-secondary" href="https://www.facebook.com/anthony.gillespie.35/"><svg className="bi" width="24" height="24"><use xlinkHref="#facebook"></use></svg></a></li>
-    </ul>
+const Footer = () => (
+  <footer className="footer">
+    <a href="https://github.com/UnknownKonflikt" target="_blank" rel="author" aria-label="GitHub">
+      <FaGithub size={24} />
+    </a>
+    <a href="https://www.linkedin.com/in/anthony-gillespie-4b0412170/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <FaLinkedin size={24} />
+    </a>
+    <a href="https://www.facebook.com/anthony.gillespie.35/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+      <FaFacebook size={24} />
+    </a>
+    <a href="https://www.instagram.com/unknown_konflikt/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+      <FaInstagram size={24} />
+    </a>
+    
   </footer>
-</div>
-        </>
-    )
-};
+);
 
 export default Footer;
