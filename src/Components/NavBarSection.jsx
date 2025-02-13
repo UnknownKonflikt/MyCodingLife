@@ -8,7 +8,10 @@ function NavBar() {
         <>
         <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-italic">
-          <svg className="bi me-2" width="80" height="50"><use xlinkHref="#bootstrap"></use></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="50" fill="currentColor" className="bi bi-house-door" viewBox="0 0 16 16">
+   <path d="M8 3.293l6 5V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8.293l6-5zm0-1.636L1 7.57V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7.57L8 1.657z"/>
+</svg>
+
           <span className="fs-4">My Coding Life</span>
         </a>
   
@@ -21,7 +24,7 @@ function NavBar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse justify-center fw-bold  navbar-collapse" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse justify-content-center fw-bold" id="navbarSupportedContent">
                     <ul className="navbar-nav mb-2 mb-lg-0">
                         <li className="nav-item">
                             <a className="nav-link" aria-current="page" href="#HeroSection">Home</a>
@@ -33,7 +36,7 @@ function NavBar() {
                             <a className="nav-link" href="#ProjectSection">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="ResumeSection">Resume</a>
+                            <a className="nav-link" href="#ResumeSection">Resume</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#ContactSection">Contact</a>

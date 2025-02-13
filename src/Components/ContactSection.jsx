@@ -28,7 +28,7 @@ function ContactSection() {
 
     return (
         <>
-        <section id="contact" className="d-flex align-items-center py-4 container">
+        <section id="ContactSection" >
             <main className="form-signin col-12 col-sm-6 text-center w-100 m-auto">
                 <form ref={form} onSubmit={sendEmail}>
                     <h1 className="text-center display-6 fw-bold text-body-emphasis lh-1 mb-5">

@@ -4,7 +4,7 @@ import logo from '../assets/img/logo.png';
 function HeroSection() {
     return (
         <>
-        <section id="home" className="container">
+        <section id="HeroSection">
             {/* Full-screen height row */}
             <div className="full-screen-height row flex-lg-row-reverse justify-content-center align-items-center text-center g-5 py-3">
                 <div className="col-10 col-sm-8 col-lg-6">
